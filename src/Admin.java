@@ -19,7 +19,7 @@ public class Admin {
 
             switch (choice) {
                 case 1:
-                    // Search or select a laundry order
+                    // Select a laundry order
                     // Choose a new order status:
                     // 1. Pending
                     // 2. In Progress
