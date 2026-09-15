@@ -19,19 +19,38 @@ public class Admin {
 
             switch (choice) {
                 case 1:
-                    // Look up an order and change its status:
-                    // Pending, In Progress, Ready to pickup, or Claimed
+                    // Search or select a laundry order
+                    // Choose a new order status:
+                    // 1. Pending
+                    // 2. In Progress
+                    // 3. Ready for Pickup
+                    // 4. Claimed
+                    // Update the order status based on the selected option
                     break;
                 case 2:
-                    // Display all laundry orders with
-                    // customer, service, weight, price, assigned staff, and status
+                    // Display all laundry orders
+                    // Show customer name
+                    // Show selected service
+                    // Show laundry weight
+                    // Show price per kilogram
+                    // Show total price
+                    // Show assigned staff
+                    // Show current order status
                     break;
                 case 3:
-                    // Compute and display total revenue (e.g. from Claimed orders)
+                    // Calculate total revenue from completed/claimed orders
+                    //
+                    // Example:
+                    // totalRevenue = order1 + order2 + order3
+                    //
+                    // Use the + operator to add the order totals
+                    // Display the total revenue
                     break;
                 case 4:
-                    // Display all staff members along with their current status
-                    // (e.g. Available or Currently Working on an order)
+                    // Display available laundry staff
+                    // Show staff name
+                    // Show current status:
+                    // Available or Currently Working
                     break;
                 case 5:
                     System.out.println("Logging out...");

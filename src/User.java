@@ -17,11 +17,35 @@ public class User {
 
             switch (choice) {
                 case 1:
-                    // Select a service package, enter weight, and compute the total price
+                    // Enter customer name
+                    // Select laundry service
+                    // Set the price per kilogram based on the selected service
+                    //
+                    // Example:
+                    // Wash Only = P10.00/kg
+                    // Wash & Dry = P20.00/kg
+                    // Wash, Dry & Fold = P30.00/kg
+                    // Wash, Dry, Fold & Iron = P35.00/kg
+                    //
+                    // Enter laundry weight in kg
+                    // Calculate total price:
+                    // totalPrice = weight * pricePerKg
+                    //
+                    // Example:
+                    // 5 kg * P30.00 = P150.00
+                    //
+                    // Assign laundry staff
+                    // Set order status to "Pending"
                     break;
                 case 2:
-                    // Display this customer's order(s) and current status
-                    // (e.g. Pending / In Progress / Ready for Pickup / Claimed)
+                    // Display the customer's laundry order(s)
+                    // Show customer name
+                    // Show selected service
+                    // Show laundry weight
+                    // Show price per kilogram
+                    // Show total price
+                    // Show assigned staff
+                    // Show current order status
                     break;
                 case 3:
                     System.out.println("Logging out...");

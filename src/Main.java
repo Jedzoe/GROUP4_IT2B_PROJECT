@@ -40,7 +40,12 @@ public class Main {
                     String username = sc.next();
                     System.out.print("Password: ");
                     String password = sc.next();
+
+                    String role = "User"; // Default role for new users
+
                     System.out.println("Account created successfully!");
+                    System.out.println("Username: " + username);
+                    System.out.println("Role: " + role);
                     break;
                 }
                 case 3:
