@@ -24,6 +24,7 @@ public class Admin {
 
             switch (choice) {
                 case 1:
+<<<<<<< HEAD
                     if (!order.orderCreated) {
                         System.out.println("No Laundry Order Found.");
                         break;
@@ -64,6 +65,15 @@ public class Admin {
 
                     System.out.println("Order status updated successfully!");
                     System.out.println("New Status: " + order.status);
+=======
+                    // Select a laundry order
+                    // Choose a new order status:
+                    // 1. Pending
+                    // 2. In Progress
+                    // 3. Ready for Pickup
+                    // 4. Claimed
+                    // Update the order status based on the selected option
+>>>>>>> ce10f5f51e66c84e9bc33fa7bdac8599ac36a8ff
                     break;
 
                 case 2:
